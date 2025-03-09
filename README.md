@@ -1,6 +1,3 @@
-Here's the full documentation in a structured **Markdown format** that you can directly use for a **GitHub README** or project documentation file.  
-
----
 
 # **📌 AuditAI – AI-Powered Smart Contract Auditor**  
 
