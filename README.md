@@ -204,11 +204,4 @@ AuditAI is **open-source** under the **MIT License**.
 
 🔗 **Try AuditAI today & protect your smart contracts!** 🚀  
 
----
 
-### **📌 How to Use This Docs**  
-- Save this as `README.md` for GitHub.  
-- Use it in **project documentation** or a **Notion workspace**.  
-- Convert to a **PDF** for submission in the hackathon.  
-
-Let me know if you need modifications! 🚀🔥
