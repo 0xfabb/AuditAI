@@ -1,9 +1,10 @@
-import { Home, Search, FileText, Shield } from "lucide-react";
+import { Home, Search, FileText, Shield, FileSearch } from "lucide-react";
 
 export default function Sidebar({ setPage, activePage }) {
   const menuItems = [
     { id: "home", label: "Home", icon: <Home size={20} /> },
     { id: "analyze", label: "Analyze Contract", icon: <Search size={20} /> },
+    { id: "whitepaper", label: "Whitepaper Analysis", icon: <FileSearch size={20} /> },
     { id: "reports", label: "Reports", icon: <FileText size={20} /> }
   ];
 

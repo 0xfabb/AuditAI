@@ -1,6 +1,7 @@
 import Sidebar from "./Sidebar";
 import { useState, useEffect } from "react";
 import ContractAnalyzer from "./ContractAnalyzer";
+import WhitepaperAnalyzer from "./WhitepaperAnalyzer";
 
 export default function DashboardLayout() {
   const [page, setPage] = useState("analyze");
@@ -44,6 +45,7 @@ export default function DashboardLayout() {
       <div className="flex-1 p-3 md:p-6 bg-dark-1 text-white overflow-y-auto">
         <div className="max-w-6xl mx-auto">
           {page === "analyze" && <ContractAnalyzer />}
+          {page === "whitepaper" && <WhitepaperAnalyzer />}
           {page === "home" && (
             <div className="bg-dark-2 rounded-xl p-6 shadow-lg">
               <h2 className="text-2xl md:text-3xl font-bold mb-4">Welcome to AuditAI</h2>
