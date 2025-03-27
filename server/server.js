@@ -5,7 +5,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 const app = express();
 const AuditAI = new GoogleGenerativeAI(
-  process.env.API_KEY || "AIzaSyAgRdhRht2XFaH-rHJ5qTCM_C061X34v6w"
+  process.env.API_KEY || 
 );
 const model = AuditAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
