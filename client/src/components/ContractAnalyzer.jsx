@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Input } from "../components/ui/Input";
-import { Button } from "../components/ui/button";
+import { Button } from "../components/ui/Button";
 import axios from "axios";
 import { Clipboard, Download, AlertTriangle, CheckCircle, Info, Shield } from "lucide-react";
 
