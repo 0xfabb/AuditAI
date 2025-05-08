@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Input } from "../components/ui/input";
+import { Input } from "../components/ui/Input";
 import { Button } from "../components/ui/button";
 import axios from "axios";
 import { Clipboard, Download, AlertTriangle, CheckCircle, Info, Shield } from "lucide-react";
